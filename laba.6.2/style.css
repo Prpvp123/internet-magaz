@@ -1,0 +1,53 @@
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.form-control.error {
+    border: 1px solid red;
+}
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    margin: 0 1rem;
+  }
+  h1 {
+    display: flex;
+  }
+.title{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* .container{
+
+} */
